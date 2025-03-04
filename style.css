@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,7 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-color: antiquewhite;
+    background-color: #f3f3f1;
     
     
     
@@ -45,7 +47,7 @@ main{
 
 #portadordeimagen{
        
-    margin-top: 7px;    
+    margin-top: 30px;    
     text-align: center;
     object-fit: cover;
     
@@ -74,6 +76,7 @@ main{
     justify-content: center;
     background-color: rgb(255, 255, 255);
     text-align: center;
+    
     }
 
 
@@ -83,17 +86,20 @@ h1
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
+    
 }
 
 #portadordeiconos{
     display: flex;
-    
+    margin-top: 30px;    
     justify-content: space-evenly;
+    margin-bottom: 30px;
     
 }
 .iconos{
@@ -117,6 +123,7 @@ h2{
     justify-content: center;
     background-color: rgb(255, 255, 255);
     font-size: 16px;
+    
 
 }
 
